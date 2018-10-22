@@ -22,8 +22,8 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Desafios:** Fazer um aplicativo para outra empresa
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/company_fatec.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/company_unisal.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/company_fatec.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/company_unisal.jpg" height="400"/>
 </p>
 
 ## Projeto 2 - Marcador de jogo de truco
@@ -34,8 +34,8 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Desafios:** Aplicativo 100% funcional; Criar alguma forma de voltar pontos (pelo menos o último ponto); Desativar os botões após algum time marcar 12 ou mais pontos
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/marcador_truco_sketch.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/marcador_truco_roxo.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/marcador_truco_sketch.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/marcador_truco_roxo.jpg" height="400"/>
 </p>
 
 ## Projeto 3 - Caluladora de Combustível
@@ -46,10 +46,10 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Desafios:** Retirar todos Hardcodes de strings do layout e criar o seu próprio layout
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/fuel_calculator_sketch.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/fuel_calculator_1.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/fuel_calculator_2.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/fuel_calculator_3.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/fuel_calculator_sketch.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/fuel_calculator_1.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/fuel_calculator_2.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/fuel_calculator_3.jpg" height="400"/>
 </p>
 
 ## Projeto 4 - Empréstimo de Objetos
@@ -60,13 +60,13 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Banco de Dados:** [Comandos SQLite](https://d17h27t6h515a5.cloudfront.net/topher/2016/September/57ed880e_sql-sqlite-commands-cheat-sheet/sql-sqlite-commands-cheat-sheet.pdf)
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/memstuff_sketch.jpg" height="400"/>  
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/lending_stuff_1.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/lending_stuff_2.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/lending_stuff_3.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/lending_stuff_4.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/lending_stuff_5.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/lending_stuff_6.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/memstuff_sketch.jpg" height="400"/>  
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/lending_stuff_1.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/lending_stuff_2.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/lending_stuff_3.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/lending_stuff_4.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/lending_stuff_5.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/lending_stuff_6.jpg" height="400"/>
 </p>
 
 ## Projeto 5 - Calculadora de Juros
@@ -75,13 +75,13 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Views:** TextView, ImageView, ScrollView
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/juros_sketch.jpg" height="400"/>
-   <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/calculadora_juros_1.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/calculadora_juros_2.jpg" height="400"/>
-    <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/calculadora_juros_3.jpg" height="400"/>
-    <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/calculadora_juros_6.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/calculadora_juros_4.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/calculadora_juros_5.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/juros_sketch.jpg" height="400"/>
+   <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/calculadora_juros_1.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/calculadora_juros_2.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/calculadora_juros_3.jpg" height="400"/>
+    <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/calculadora_juros_6.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/calculadora_juros_4.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/calculadora_juros_5.jpg" height="400"/>
 </p>
 
 ## Projeto 6 - Jogo da Velha (Tic Tac Toe)
@@ -90,13 +90,13 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Views:** TextView, ImageView, ScrollView
 
 <p align="center">
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/velha_sketch.jpeg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/tic_tac_toe_1.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/tic_tac_toe_2.jpg" height="400"/>
-    <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/tic_tac_toe_3.jpg" height="400"/>
-    <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/tic_tac_toe_4.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/tic_tac_toe_5.jpg" height="400"/>
-  <img src="https://github.com/kleberandrade/aulas-java-android/blob/master/Figures/tic_tac_toe_6.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/velha_sketch.jpeg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/tic_tac_toe_1.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/tic_tac_toe_2.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/tic_tac_toe_3.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/tic_tac_toe_4.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/tic_tac_toe_5.jpg" height="400"/>
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/tic_tac_toe_6.jpg" height="400"/>
 </p>
 
 ## Projeto 7 - Notícias
