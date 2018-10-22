@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/HeaderText"
+            android:text="@string/price_per_liter_text" />
+
+        <TextView
+            style="@style/LabelText"
+            android:text="@string/etanol_text" />
+
+        <EditText
+            android:id="@+id/etanol_price_edit_text"
+            style="@style/EditText"
+            android:hint="0,00" />
+
+        <TextView
+            style="@style/LabelText"
+            android:text="@string/gas_text" />
+
+        <EditText
+            android:id="@+id/gas_price_edit_text"
+            0o
+            android:layout_marginBottom="16dp"
+            android:hint="0,00" />
+
+        <TextView
+            style="@style/HeaderText"
+            android:text="@string/average_milage_text" />
+
+        <TextView
+            style="@style/LabelText"
+            android:text="@string/etanol_text" />
+
+        <EditText
+            android:id="@+id/etanol_milage_edit_text"
+            style="@style/EditText"
+            android:hint="0,00" />
+
+        <TextView
+            style="@style/LabelText"
+            android:text="@string/gas_text" />
+
+        <EditText
+            android:id="@+id/gas_milage_edit_text"
+            style="@style/EditText"
+            android:hint="0,00" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/calculator_button"
+            style="@style/Button"
+            android:text="@string/calculator_button" />
+
+    </LinearLayout>
+
+</LinearLayout>

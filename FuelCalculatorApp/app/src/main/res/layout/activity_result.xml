@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".ResultActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Valores Informados -->
+        <TextView
+            style="@style/HeaderText"
+            android:text="Valores Informados" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="R$/Litro Etanol" />
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="R$/Litro Gasolina" />
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Km/Litro Etanol" />
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Km/Litro Gasolina" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/etanol_price_result"
+                    style="@style/LabelText"
+                    android:text="0,00"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/gas_price_result"
+                    style="@style/LabelText"
+                    android:text="0,00"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/etanol_milage_result"
+                    style="@style/LabelText"
+                    android:text="0,00"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/gas_milage_result"
+                    style="@style/LabelText"
+                    android:text="0,00"
+                    android:textAlignment="textEnd"
+                    android:layout_marginBottom="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <TextView
+            style="@style/HeaderText"
+            android:text="Resultado" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.75"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Relação Etanol/Gasolina" />
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Gasto com Etanol" />
+
+                <TextView
+                    style="@style/LabelText"
+                    android:text="Gasto com Gasolina" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/rate"
+                    style="@style/LabelText"
+                    android:text="0,00"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/ethanol_spent"
+                    style="@style/LabelText"
+                    android:text="0,00"
+                    android:textAlignment="textEnd" />
+
+                <TextView
+                    android:id="@+id/gas_spent"
+                    style="@style/LabelText"
+                    android:text="0,00"
+                    android:textAlignment="textEnd"
+                    android:layout_marginBottom="16dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/best_fuel"
+                android:gravity="center"
+                android:text="Abasteça com Gasolina"
+                style="@style/ResultText" />
+
+            <TextView
+                android:id="@+id/fuel_saving"
+                android:gravity="center"
+                android:text="Economia de "
+                style="@style/LabelText" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/back_button"
+            style="@style/Button"
+            android:text="Voltar" />
+
+    </LinearLayout>
+
+</LinearLayout>

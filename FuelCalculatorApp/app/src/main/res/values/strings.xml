@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Consumo de Combustível</string>
+    <!-- Tela 1 -->
+    <string name="price_per_liter_text">Preço por litro (R$)</string>
+    <string name="average_milage_text">Consumo médio (Km/Litro)</string>
+    <string name="etanol_text">Etanol</string>
+    <string name="gas_text">Gasolina</string>
+    <string name="calculator_button">Calcular</string>
+    <!-- Tela 1 - Erros -->
+    <string name="erro_price_etanol">Digite o preço do etanol</string>
+    <string name="erro_price_gas">Digite o preço da gasolina</string>
+    <string name="erro_milage_etanol">Digite o consumo usando etanol</string>
+    <string name="erro_milage_gas">Digite o consumo usando gasolina</string>
+    <!-- Tela 2 -->
+    <string name="km_litro">Km/Litro</string>
+    <string name="per_km"> / Km</string>
+</resources>
