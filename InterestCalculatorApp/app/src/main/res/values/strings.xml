@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Calculadora de Juros</string>
+    <string name="interest">Juros</string>
+    <string name="calculator">calculadora</string>
+    <string name="activity_main_label">Calcular Juros</string>
+    <string name="activity_result_label">Resultado</string>
+    <string name="clear">Limpar</string>
+    <string name="calculate">Calcular</string>
+    <string name="value_to_pay_hint">Valor (R$)</string>
+    <string name="due_date_hint">Data vencimento</string>
+    <string name="payment_date_hint">Data pagamento</string>
+    <string name="interest_hint">Juros</string>
+    <string name="fine_hint">Multa</string>
+</resources>
