@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Memstuff</string>
+    <string name="edit_button">Editar</string>
+    <string name="delete_button">Excluir</string>
+    <string name="create_item_message">Objeto adicionado na lista</string>
+    <string name="edit_item_message">Item atualizado</string>
+    <string name="cancel">Cancelar</string>
+    <string name="add">Adicionar</string>
+    <string name="update">Atualizar</string>
+    <string name="new_landing">Novo Empréstimo</string>
+    <string name="edit_landing">Editar Empréstimo</string>
+    <string name="delete">Excluir</string>
+    <string name="deleting">Excluindo</string>
+    <string name="delete_message">Tem certeza que deseja exlcuir este objeto emprestado?</string>
+    <string name="name">Nome</string>
+    <string name="description">Descrição</string>
+    <string name="date">Data</string>
+    <string name="memstuff">memstuff</string>
+    <string name="memstuff_subtitle">lembrando dos objetos emprestados</string>
+    <string name="date_formatter">dd/MM/yyyy</string>
+</resources>

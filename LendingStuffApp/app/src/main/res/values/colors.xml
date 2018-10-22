@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ED213A</color>
+    <color name="colorPrimaryDark">#93291E</color>
+    <color name="colorAccent">#ED213A</color>
+    <color name="colorSplashScreenText">#ECF0F1</color>
+    <color name="colorSplashScreenStart">#ED213A</color>
+    <color name="colorSplashScreenEnd">#93291E</color>
+</resources>
