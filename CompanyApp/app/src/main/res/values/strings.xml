@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FATEC Americana</string>
+    <string name="fatec_address">R. Emílio de Menezes, s/n - Vila Amorim Americana - SP, CEP: 13469-101</string>
+    <string name="fatec_phone">+55 (19) 3406 5776</string>
+    <string name="fatec_web_page">http://www.fatec.edu.br/</string>
+    <string name="fatec_mission_title">Missão</string>
+    <string name="fatec_mission_description">Promover a educação profissional pública dentro de referenciais de excelência, visando ao atendimento das demandas sociais e do mundo do trabalho.</string>
+</resources>
