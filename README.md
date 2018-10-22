@@ -99,10 +99,14 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
   <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/tic_tac_toe_6.jpg" height="400"/>
 </p>
 
-## Projeto 7 - Notícias
+## Projeto 7 - Chat (Firebase)
 
 - **Layout:** LinearLayout
 - **Views:** TextView, ImageView, ScrollView
+
+<p align="center">
+  <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/chat_sketch.jpg" height="400"/>
+</p>
 
 ## Projeto 8 - Relatos
 
