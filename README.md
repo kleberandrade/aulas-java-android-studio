@@ -104,16 +104,12 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 - **Layout:** LinearLayout
 - **Views:** TextView, ImageView, ScrollView
 
-## Projeto 8 - Controle financeiro
+## Projeto 8 - Relatos
 
 - **Layout:** LinearLayout
 - **Views:** TextView, ImageView, ScrollView
 
-<<<<<<< HEAD
-## Projeto 9 - Internet das Coisas (IoT + Mqtt)
-=======
-## Projeto 9 - Relatos
->>>>>>> parent of c850620... Merge branch 'master' of https://github.com/kleberandrade/aulas-java-android
+## Projeto 9 - Internet das Coisas (IoT)
 
 - **Layout:** LinearLayout
 - **Views:** TextView, ImageView, ScrollView
