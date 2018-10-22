@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorStartBkg</item>
+        <item name="colorPrimaryDark">@color/colorStartBkg</item>
+        <item name="colorAccent">@color/colorStartBkg</item>
+    </style>
+
+    <style name="ButtonOutline" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@drawable/button_outline_border</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TeamText" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@drawable/button_outline_border</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextValue" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:background">@drawable/button_outline_border</item>
+        <item name="android:textColor">@color/colorText</item>
+        <item name="android:textSize">78sp</item>
+    </style>
+
+
+</resources>

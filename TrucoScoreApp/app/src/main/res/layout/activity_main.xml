@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity"
+    android:keepScreenOn="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!-- Team A -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:padding="16dp"
+                    android:text="@string/team_a"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/player1_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="0"
+                    android:textColor="@color/colorText"
+                    android:textSize="78sp" />
+
+                <Button
+                    android:id="@+id/increaseOneInPlayerOneButton"
+                    android:onClick="increaseOneInPlayerOne"
+                    android:text="+1"
+                    style="@style/ButtonOutline"/>
+
+                <Button
+                    android:id="@+id/increaseThreeInPlayerOneButton"
+                    style="@style/ButtonOutline"
+                    android:onClick="increaseThreeInPlayerOne"
+                    android:text="+3" />
+
+                <Button
+                    android:id="@+id/increaseSixInPlayerOneButton"
+                    style="@style/ButtonOutline"
+                    android:onClick="increaseSixInPlayerOne"
+                    android:text="+6" />
+
+                <Button
+                    android:id="@+id/increaseNineInPlayerOneButton"
+                    style="@style/ButtonOutline"
+                    android:onClick="increaseNineInPlayerOne"
+                    android:text="+9" />
+
+                <Button
+                    android:id="@+id/increaseTwelveInPlayerOneButton"
+                    style="@style/ButtonOutline"
+                    android:onClick="increaseTwelveInPlayerOne"
+                    android:text="+12" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:background="@android:color/white">
+            </View>
+
+            <!-- Team B -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:text="@string/team_b"
+                    android:textColor="@color/colorText"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/player2_score"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:padding="16dp"
+                    android:text="0"
+                    android:textColor="@color/colorText"
+                    android:textSize="78sp" />
+
+                <Button
+                    android:id="@+id/increaseOneInPlayerTwoButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:onClick="increaseOneInPlayerTwo"
+                    android:background="@drawable/button_outline_border"
+                    android:textColor="@color/colorText"
+                    android:text="+1" />
+
+                <Button
+                    android:id="@+id/increaseThreeInPlayerTwoButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_outline_border"
+                    android:textColor="@color/colorText"
+                    android:onClick="increaseThreeInPlayerTwo"
+                    android:text="+3" />
+
+                <Button
+                    android:id="@+id/increaseSixInPlayerTwoButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_outline_border"
+                    android:textColor="@color/colorText"
+                    android:onClick="increaseSixInPlayerTwo"
+                    android:text="+6" />
+
+                <Button
+                    android:id="@+id/increaseNineInPlayerTwoButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:background="@drawable/button_outline_border"
+                    android:textColor="@color/colorText"
+                    android:onClick="increaseNineInPlayerTwo"
+                    android:text="+9" />
+
+                <Button
+                    android:id="@+id/increaseTwelveInPlayerTwoButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button_outline_border"
+                    android:textColor="@color/colorText"
+                    android:onClick="increaseTwelveInPlayerTwo"
+                    android:text="+12" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:background="@drawable/button_outline_border"
+            android:textColor="@color/colorText"
+            android:onClick="resetScore"
+            android:text="Reset" />
+
+    </LinearLayout>
+
+</ScrollView>
