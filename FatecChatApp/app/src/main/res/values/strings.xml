@@ -20,5 +20,4 @@
 
     <string name="error_name_empty">Nome é obrigatório</string>
     <string name="error_password_different">Senha diferente</string>
-
 </resources>

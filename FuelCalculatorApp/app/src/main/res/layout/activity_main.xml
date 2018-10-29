@@ -25,6 +25,8 @@
             android:text="@string/etanol_text" />
 
         <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/etanol_price_edit_text"
             style="@style/EditText"
             android:hint="0,00" />
@@ -35,9 +37,10 @@
 
         <EditText
             android:id="@+id/gas_price_edit_text"
-            0o
             android:layout_marginBottom="16dp"
-            android:hint="0,00" />
+            android:hint="0,00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
         <TextView
             style="@style/HeaderText"
@@ -57,6 +60,8 @@
             android:text="@string/gas_text" />
 
         <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/gas_milage_edit_text"
             style="@style/EditText"
             android:hint="0,00" />

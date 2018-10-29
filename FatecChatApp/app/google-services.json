@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "843794734413",
-    "firebase_url": "https://fatecchatapp-8a853.firebaseio.com",
-    "project_id": "fatecchatapp-8a853",
-    "storage_bucket": "fatecchatapp-8a853.appspot.com"
+    "project_number": "827527401260",
+    "firebase_url": "https://fatecchatapp-9c51c.firebaseio.com",
+    "project_id": "fatecchatapp-9c51c",
+    "storage_bucket": "fatecchatapp-9c51c.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:843794734413:android:33bedb3a432356dd",
+        "mobilesdk_app_id": "1:827527401260:android:33bedb3a432356dd",
         "android_client_info": {
           "package_name": "br.fatec.aula.fatecchatapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "843794734413-vao5ho1jmrctb02fin1c7642oi50snel.apps.googleusercontent.com",
+          "client_id": "827527401260-d1a22i03d9cjg4su9jjau4ap3bsbgst3.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "br.fatec.aula.fatecchatapp",
@@ -23,13 +23,13 @@
           }
         },
         {
-          "client_id": "843794734413-n2crd4mfbomb7h6iecc2e4hgbbucgd00.apps.googleusercontent.com",
+          "client_id": "827527401260-8lrh1ugrg94v043mqsk507o4ebp6t34i.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyB6GAKblJGj1yZnMiqpOzpkoe8bmif27qU"
+          "current_key": "AIzaSyBhs4o-P4Uf-bo3k6gR91_JaWGprZdfbtM"
         }
       ],
       "services": {
@@ -40,7 +40,7 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "843794734413-n2crd4mfbomb7h6iecc2e4hgbbucgd00.apps.googleusercontent.com",
+              "client_id": "827527401260-8lrh1ugrg94v043mqsk507o4ebp6t34i.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

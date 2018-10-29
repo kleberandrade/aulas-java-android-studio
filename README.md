@@ -103,6 +103,18 @@ Disciplina do segundo semestre do curso de Análise e Desenvolvimento de Sistema
 
 - **Layout:** LinearLayout
 - **Views:** TextView, ImageView, ScrollView
+- **Dependencias:**
+    // Design
+    implementation 'com.android.support:design:28.0.0'
+    // Firebase
+    implementation 'com.google.firebase:firebase-core:16.0.4'
+    implementation 'com.google.firebase:firebase-auth:16.0.5'
+    implementation 'com.google.firebase:firebase-database:16.0.3'
+    // Needed to fix a dependency conflict with FirebaseUI'
+    implementation 'android.arch.core:runtime:1.1.1'
+    // Butter Knife
+    implementation 'com.jakewharton:butterknife:9.0.0-rc1'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc1'
 
 <p align="center">
   <img src="https://github.com/kleberandrade/aulas-java-android-studio/blob/master/Figures/chat_sketch.jpg" height="400"/>

@@ -38,16 +38,8 @@ public class BaseActivity extends AppCompatActivity {
         }
     }
 
-    protected void showLongToast(String message) {
-        showToast(message, Toast.LENGTH_LONG);
-    }
-
-    protected void showShortToast(String message) {
-        showToast(message, Toast.LENGTH_SHORT);
-    }
-
-    private void showToast(String message, int duration){
-        Toast.makeText(this, message, duration).show();
+    public void showToast(String message){
+        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 
     @Override

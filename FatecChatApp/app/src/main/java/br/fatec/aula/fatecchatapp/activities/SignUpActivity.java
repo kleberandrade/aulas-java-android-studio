@@ -3,18 +3,14 @@ package br.fatec.aula.fatecchatapp.activities;
 import android.support.annotation.NonNull;
 import android.os.Bundle;
 import android.support.design.widget.TextInputLayout;
-import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 import br.fatec.aula.fatecchatapp.R;
 import br.fatec.aula.fatecchatapp.utils.FormHelper;
@@ -23,8 +19,6 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 
 public class SignUpActivity extends BaseActivity {
-
-    private static final String TAG = "EmailPassword";
 
     @BindView(R.id.name)
     EditText nameField;
@@ -62,7 +56,8 @@ public class SignUpActivity extends BaseActivity {
     }
 
     private boolean validateForm(String name, String email, String password, String confirmPassword) {
-        boolean resultValidate = false;
+
+        boolean resultValidate = true;
 
         nameLayout.setError(null);
         emailLayout.setError(null);
@@ -70,7 +65,7 @@ public class SignUpActivity extends BaseActivity {
         confirmPasswordLayout.setError(null);
 
         if (FormHelper.isEmpty(name)) {
-            nameLayout.setError(getString(R.string.error_email_empty));
+            nameLayout.setError(getString(R.string.error_name_empty));
             resultValidate = false;
         }
 
@@ -102,7 +97,6 @@ public class SignUpActivity extends BaseActivity {
     }
 
     private void createAccount(final String email, String password) {
-        Log.d(TAG, "createAccount:" + email);
         if (!validateForm(nameField.getText().toString(), email, password, confirmPasswordField.getText().toString())) {
             return;
         }
@@ -114,15 +108,12 @@ public class SignUpActivity extends BaseActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Log.d(TAG, "createUserWithEmail:success");
                             FirebaseUser firebaseUser = auth.getCurrentUser();
-
+                            hideProgressDialog();
                         } else {
-                            Log.w(TAG, "createUserWithEmail:failure", task.getException());
-                            Toast.makeText(SignUpActivity.this, "Authentication failed.", Toast.LENGTH_SHORT).show();
+                            showToast(getString(R.string.auth_failed));
+                            hideProgressDialog();
                         }
-
-                        hideProgressDialog();
                     }
                 });
     }

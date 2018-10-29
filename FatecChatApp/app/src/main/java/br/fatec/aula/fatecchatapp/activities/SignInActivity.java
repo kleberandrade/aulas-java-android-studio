@@ -24,7 +24,7 @@ import butterknife.OnClick;
 
 public class SignInActivity extends BaseActivity {
 
-    private static final String TAG = "EmailPassword";
+    private static final String TAG = "SignInActivity";
 
     @BindView(R.id.email)
     EditText emailField;
@@ -51,7 +51,7 @@ public class SignInActivity extends BaseActivity {
 
     private boolean validateForm(String email, String password) {
 
-        boolean resultValidate = false;
+        boolean resultValidate = true;
 
         emailLayout.setError(null);
         passwordLayout.setError(null);
@@ -74,10 +74,10 @@ public class SignInActivity extends BaseActivity {
 
         if (FormHelper.isEmpty(password)) {
             passwordLayout.setError(getString(R.string.error_password_empty));
-            resultValidate =  false;
+            resultValidate = false;
         } else if (!FormHelper.isPasswordValid(password)) {
             passwordLayout.setError(getString(R.string.error_password_invalid));
-            resultValidate =  false;
+            resultValidate = false;
         }
 
         return resultValidate;
@@ -85,8 +85,9 @@ public class SignInActivity extends BaseActivity {
 
 
     private void signIn(String email, String password) {
-        Log.d(TAG, "signIn:" + email);
+
         if (!validateForm(email, password)) {
+            Log.v(TAG, "validateForm error");
             return;
         }
 
@@ -97,16 +98,12 @@ public class SignInActivity extends BaseActivity {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if (task.isSuccessful()) {
-                            Log.d(TAG, "signInWithEmail:success");
                             FirebaseUser user = auth.getCurrentUser();
-
                             Intent intent = new Intent(SignInActivity.this, ChatActivity.class);
                             startActivity(intent);
                             finish();
                         } else {
-                            Log.w(TAG, "signInWithEmail:failure", task.getException());
-                            Toast.makeText(SignInActivity.this, getString(R.string.auth_failed), Toast.LENGTH_SHORT).show();
-
+                            showToast(getString(R.string.auth_failed));
                         }
 
                         hideProgressDialog();
@@ -116,13 +113,15 @@ public class SignInActivity extends BaseActivity {
 
     @OnClick(R.id.sign_in_button)
     public void signInOnClick(View view) {
+        Log.v(TAG, "signInOnClick execute");
         String email = emailField.getText().toString();
         String password = passwordField.getText().toString();
         signIn(email, password);
     }
 
     @OnClick(R.id.go_to_sign_up_button)
-    public void goToSignUpOnClick(View view){
+    public void goToSignUpOnClick(View view) {
+        Log.v(TAG, "goToSignUpOnClick execute");
         Intent intent = new Intent(SignInActivity.this, SignUpActivity.class);
         startActivity(intent);
     }
