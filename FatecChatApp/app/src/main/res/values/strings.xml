@@ -20,4 +20,12 @@
 
     <string name="error_name_empty">Nome é obrigatório</string>
     <string name="error_password_different">Senha diferente</string>
+
+    <string name="message">Chat</string>
+    <string name="friend">Amigos</string>
+    <string name="request">Request</string>
+    <string name="logout">Sair</string>
+
+    <string name="navigation_drawer_open">Open NavigationView</string>
+    <string name="navigation_drawer_close">Close NavigationView</string>
 </resources>

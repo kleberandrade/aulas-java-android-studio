@@ -38,7 +38,7 @@ public class SplashActivity extends BaseActivity implements Runnable {
     @Override
     public void run() {
         if (currentUser != null) {
-            Intent intent = new Intent(SplashActivity.this, ChatActivity.class);
+            Intent intent = new Intent(SplashActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
         } else {
