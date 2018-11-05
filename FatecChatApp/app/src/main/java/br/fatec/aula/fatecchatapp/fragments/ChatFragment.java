@@ -14,9 +14,7 @@ public class ChatFragment extends Fragment {
 
     private View view;
 
-    public ChatFragment()
-    {
-
+    public ChatFragment() {
     }
 
     @Nullable

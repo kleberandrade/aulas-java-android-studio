@@ -14,7 +14,9 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".activities.SplashActivity" android:theme="@style/AppTheme.FullScreen">
+        <activity
+            android:name=".activities.SplashActivity"
+            android:theme="@style/AppTheme.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

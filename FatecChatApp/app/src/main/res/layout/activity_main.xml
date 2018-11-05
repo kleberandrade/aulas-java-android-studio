@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:openDrawer="start"
-    tools:context=".activities.MainActivity">
+    tools:context=".activities.MainActivity"
+    tools:openDrawer="start">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,7 +36,6 @@
             android:id="@+id/chat_view_pager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
-
     </LinearLayout>
 
     <android.support.design.widget.NavigationView
@@ -45,8 +44,6 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/nav_header"
-        app:menu="@menu/drawer_menu">
-
-    </android.support.design.widget.NavigationView>
+        app:menu="@menu/drawer_menu" />
 
 </android.support.v4.widget.DrawerLayout>

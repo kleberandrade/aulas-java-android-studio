@@ -101,10 +101,9 @@ public class SignInActivity extends BaseActivity {
                             startActivity(intent);
                             finish();
                         } else {
+                            hideProgressDialog();
                             showToast(getString(R.string.auth_failed));
                         }
-
-                        hideProgressDialog();
                     }
                 });
     }

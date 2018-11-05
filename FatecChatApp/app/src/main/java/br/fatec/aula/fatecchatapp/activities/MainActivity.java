@@ -1,21 +1,20 @@
 package br.fatec.aula.fatecchatapp.activities;
 
-import android.support.design.widget.NavigationView;
 import android.support.design.widget.TabLayout;
-import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v4.view.GravityCompat;
+
+import br.fatec.aula.fatecchatapp.adapters.ViewPagerAdapter;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 
 import br.fatec.aula.fatecchatapp.R;
-import br.fatec.aula.fatecchatapp.adapters.ViewPagerAdapter;
 import br.fatec.aula.fatecchatapp.fragments.ChatFragment;
-import br.fatec.aula.fatecchatapp.fragments.FriendFragment;
 import br.fatec.aula.fatecchatapp.fragments.RequestFragment;
-import butterknife.Action;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -47,9 +46,8 @@ public class MainActivity extends AppCompatActivity {
         toogle.syncState();
 
         ViewPagerAdapter viewPagerAdapter = new ViewPagerAdapter(getSupportFragmentManager());
-        viewPagerAdapter.addFragment(new RequestFragment(), "Request");
         viewPagerAdapter.addFragment(new ChatFragment(), "Chat");
-        viewPagerAdapter.addFragment(new FriendFragment(), "Friend");
+        viewPagerAdapter.addFragment(new RequestFragment(), "Convites");
 
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
@@ -57,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        if (drawerLayout.isDrawerOpen(GravityCompat.START)){
+        if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
             drawerLayout.closeDrawer(GravityCompat.START);
         } else {
             super.onBackPressed();
