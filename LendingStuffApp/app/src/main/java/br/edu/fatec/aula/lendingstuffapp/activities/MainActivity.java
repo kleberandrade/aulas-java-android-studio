@@ -36,7 +36,12 @@ public class MainActivity extends AppCompatActivity implements ItemDialogFragmen
         setRecyclerView();
         setHideAndShowScrolledFloatingButton();
 
-        fab.setonCli
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                createItem(v);
+            }
+        });
     }
 
     private void setListItem() {
